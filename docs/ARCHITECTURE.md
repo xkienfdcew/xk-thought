@@ -1,6 +1,6 @@
 # Architecture
 
-`pi-thought-chain` is a **standalone** pi plugin. It owns the "reasoning protocol" concern and
+`xk-thought` is a **standalone** pi plugin. It owns the "reasoning protocol" concern and
 imports nothing from the task or output-template plugins.
 
 ```

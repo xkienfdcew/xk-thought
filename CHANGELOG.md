@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0
+
+- Renamed the package to `xk-thought` (repository `xkienfdcew/xk-thought`);
+  the checkout folder is now `D:\DevTools\xk-thought`. No behavior changes.
+
 ## 0.1.0
 
 Initial standalone release (extracted from the 3-in-1 `pi-autonomy`).

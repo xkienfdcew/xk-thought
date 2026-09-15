@@ -1,4 +1,4 @@
-# pi-thought-chain
+# xk-thought
 
 > **给 [pi](https://pi.dev) 加上可切换的「思维链」——把"该怎么想"变成一份可复用、可继承、可约束的声明文件。**
 > 独立插件 · 零运行时依赖 · 不改 pi 内核 · 不调用任何外部服务
@@ -7,7 +7,7 @@
 [![pi-package](https://img.shields.io/badge/pi--package-yes-ff6b9d.svg)](https://github.com/topics/pi-package)
 [![tests](https://img.shields.io/badge/tests-13%20unit%20%2B%2010%20rpc-brightgreen.svg)](./scripts)
 
-> 仓库：`xkienfdcew/xk-thought`　包名：`pi-thought-chain`
+> 仓库：`xkienfdcew/xk-thought`　包名：`xk-thought`
 
 ---
 
@@ -51,7 +51,7 @@ pi 在运行时会把它翻译成真实行为：注入系统提示、切换工�
 pi install git:github.com/xkienfdcew/xk-thought
 
 # 从本地目录
-pi install /absolute/path/to/pi-thought-chain
+pi install /absolute/path/to/xk-thought
 
 # 开发期直接加载
 pi -e ./extensions/thought-chain/index.ts

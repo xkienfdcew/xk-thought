@@ -1,5 +1,5 @@
 /**
- * pi-thought-chain — switchable reasoning protocols for pi.
+ * xk-thought — switchable reasoning protocols for pi.
  *
  * Standalone plugin: it imports nothing from the task or output-template
  * plugins. Cross-plugin integration happens through `pi.events` and the

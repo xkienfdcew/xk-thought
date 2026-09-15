@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Real-pi end-to-end verification for pi-thought-chain (no model calls).
+ * Real-pi end-to-end verification for xk-thought (no model calls).
  *
  *   node scripts/verify-rpc.mjs
  */
@@ -37,7 +37,7 @@ if (!cli) {
 	process.exit(2);
 }
 
-const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "pi-thought-chain-e2e-"));
+const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "xk-thought-e2e-"));
 const agentDir = path.join(tmp, "agent");
 fs.mkdirSync(agentDir, { recursive: true });
 const realAgent = process.env.PI_CODING_AGENT_DIR || path.join(os.homedir(), ".pi", "agent");
@@ -142,7 +142,7 @@ async function check(name, fn) {
 	}
 }
 
-console.log(`pi-thought-chain RPC verification\n  ext: ${extPath}\n`);
+console.log(`xk-thought RPC verification\n  ext: ${extPath}\n`);
 
 try {
 	await waitFor(() => events.length > 0 || responses.size > 0 || notifications.length > 0, 20000, "pi startup").catch(() => {});

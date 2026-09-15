@@ -1,5 +1,5 @@
 /**
- * Pure-logic self-test for pi-thought-chain. Runs with plain Node (type stripping).
+ * Pure-logic self-test for xk-thought. Runs with plain Node (type stripping).
  *
  *   node scripts/selftest.mjs
  */
@@ -9,7 +9,7 @@ import * as fs from "node:fs";
 import * as os from "node:os";
 import * as path from "node:path";
 
-const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "pi-thought-chain-"));
+const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "xk-thought-"));
 process.env.PI_CODING_AGENT_DIR = tmp;
 
 const yaml = await import("../extensions/thought-chain/lib/yaml.ts");
@@ -47,7 +47,7 @@ function test(name, fn) {
 	}
 }
 
-console.log("pi-thought-chain self-test\n");
+console.log("xk-thought self-test\n");
 
 await test("yaml subset parses nested maps and list of maps", () => {
 	const parsed = yaml.parseYamlSubset(`

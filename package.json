@@ -1,6 +1,6 @@
 {
-  "name": "pi-thought-chain",
-  "version": "0.1.0",
+  "name": "xk-thought",
+  "version": "0.2.0",
   "description": "Switchable reasoning protocols (thought chains) for pi: prompt + skills + tools + thinking + phases + permissions.",
   "type": "module",
   "license": "MIT",
