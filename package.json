@@ -4,6 +4,14 @@
   "description": "Switchable reasoning protocols (thought chains) for pi: prompt + skills + tools + thinking + phases + permissions.",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkienfdcew/xk-thought.git"
+  },
+  "homepage": "https://github.com/xkienfdcew/xk-thought#readme",
+  "bugs": {
+    "url": "https://github.com/xkienfdcew/xk-thought/issues"
+  },
   "keywords": [
     "pi-package",
     "pi",
