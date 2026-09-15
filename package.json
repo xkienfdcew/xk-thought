@@ -1,0 +1,39 @@
+{
+  "name": "pi-thought-chain",
+  "version": "0.1.0",
+  "description": "Switchable reasoning protocols (thought chains) for pi: prompt + skills + tools + thinking + phases + permissions.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "thought-chain",
+    "reasoning",
+    "agent-modes",
+    "prompt",
+    "phases"
+  ],
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/thought-chain/index.ts"
+    ]
+  },
+  "files": [
+    "extensions",
+    "chains",
+    "scripts",
+    "docs",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "selftest": "node scripts/selftest.mjs",
+    "verify": "node scripts/verify-rpc.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {}
+}
